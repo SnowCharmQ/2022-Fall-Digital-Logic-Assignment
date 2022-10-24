@@ -5,9 +5,10 @@
 module a2t4_sim();
 
 reg [4:0] sx;
-wire sy_mux;
+wire sy_mux, sy_dc;
 
 a2t4_mux mux(.x(sx), .y(sy_mux));
+a2t4_dc dc(.x(sx), .y(sy_dc));
 
 initial begin
     sx = 5'b0;

@@ -1,8 +1,8 @@
-// mux_sim.v
+// mux16to1_sim.v
 
 `timescale 1ps / 1ps
 
-module mux_sim();
+module mux16to1_sim();
 
 reg [15:0] sx;
 reg [3:0] ssel;
