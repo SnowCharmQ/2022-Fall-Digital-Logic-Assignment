@@ -1,5 +1,7 @@
 // a2t3_sim.v
 
+`timescale 1ns / 1ps
+
 module a2t3_sim();
 
 reg [3:0] sx;
